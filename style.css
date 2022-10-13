@@ -1,0 +1,33 @@
+body{
+       display: flex;
+       margin-right: 400px;
+       padding: 5px 5px;
+}
+.everything{
+       background-color: rgba(71, 61, 139, 0.788);      
+}
+#overlay{
+  position: absolute; 
+  /* display: none; */
+  width: 500px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: purple; 
+  opacity: 0.5;
+}
+.first {
+ position: relative;
+}   
+.pic {
+ position: absolute;
+ width: 500px;
+ height: 400px;
+ z-index: -1;
+}
+h1{
+    font-size: x-large;
+}
